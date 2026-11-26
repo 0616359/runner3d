@@ -1,0 +1,14 @@
+# build artifacts
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# 游戏运行时在 exe 同目录生成的通关纪录
+runner3d_best.txt
+
+# 说明：预编译的 runner3d.exe 是有意提交的，方便直接试玩。
+# 若不想把二进制放进仓库，取消下面这行注释即可。
+# runner3d.exe
